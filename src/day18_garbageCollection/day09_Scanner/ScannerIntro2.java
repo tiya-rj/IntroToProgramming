@@ -1,4 +1,4 @@
-package week4.day09_scanner;
+package day18_garbageCollection.day09_Scanner;
 
 import java.util.Scanner;
 

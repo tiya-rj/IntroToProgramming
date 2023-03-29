@@ -1,4 +1,4 @@
-package day09_Scanner;
+package day18_garbageCollection.day09_Scanner;
 
 import java.util.Scanner;
 public class ScannerIntro {
