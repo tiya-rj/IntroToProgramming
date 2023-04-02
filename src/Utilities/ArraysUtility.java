@@ -1,5 +1,7 @@
 package Utilities;
 
+import java.util.Arrays;
+
 public class ArraysUtility {
 
     public static int[] merge(int[] arr1, int[] arr2) {
@@ -114,5 +116,50 @@ public class ArraysUtility {
         }
         return reverse;
     }
-}
+
+    public static int[] addElement(int[] old_array, int element) {
+
+        int[] new_array = Arrays.copyOf(old_array, old_array.length + 1);
+
+        new_array[new_array.length - 1] = element; // put the element to the last index
+
+        return new_array;
+    }
+
+    public static char[] addElement(char[] old_array, char element) {
+
+        char[] new_array = Arrays.copyOf(old_array, old_array.length + 1);
+
+        new_array[new_array.length - 1] = element; // put the element to the last index
+
+        return new_array;
+    }
+
+    public static double[] addElement(double[] old_array, double element) {
+
+        double[] new_array = Arrays.copyOf(old_array, old_array.length + 1);
+
+        new_array[new_array.length - 1] = element; // put the element to the last index
+
+        return new_array;
+    }
+
+    public static String[] addElement(String[] old_array, String element) {
+
+        String[] new_array = Arrays.copyOf(old_array, old_array.length + 1);
+
+        new_array[new_array.length - 1] = element; // put the element to the last index
+
+        return new_array;
+
+    }
+
+    //public static boolean contains(int[] array, int element){ // to check if it contains array
+
+
+
+    }
+
+
+
 
