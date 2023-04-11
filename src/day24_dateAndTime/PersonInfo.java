@@ -1,11 +1,9 @@
 package day24_dateAndTime;
 
-import org.w3c.dom.ls.LSOutput;
-
 import java.time.LocalDate;
 
 
-public class PersonInfoCustomClass {
+public class PersonInfo {
 
     public String name;
     public int age;
