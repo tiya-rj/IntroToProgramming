@@ -1,6 +1,7 @@
 package day25_constructors;
 
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
 public class EmployeeUsingConstructorMethod {
 
@@ -19,7 +20,7 @@ public class EmployeeUsingConstructorMethod {
         this.salary = salary;
         this.hiredDate = hiredDate;
     }
-    // allow us to print in the print statement
+    // toString allow us to print in the print statement
     public String toString() {
         return "EmployeeUsingConstructorMethod{" +
                 "name='" + name + '\'' +
@@ -27,7 +28,7 @@ public class EmployeeUsingConstructorMethod {
                 ", gender=" + gender +
                 ", jobTitle='" + jobTitle + '\'' +
                 ", salary=" + salary +
-                ", hiredDate=" + hiredDate +
-                '}';
+                ", hiredDate=" + hiredDate.format(DateTimeFormatter.ofPattern("dd/MMM/y")) +
+                '}';//can provide to date format
     }
 }
