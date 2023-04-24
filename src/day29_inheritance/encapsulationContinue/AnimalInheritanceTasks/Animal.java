@@ -34,7 +34,7 @@ public class Animal {
     }
 
     public String toString() {
-        return "Animal{" +
+        return getClass().getSimpleName()+ "{" + //don't forget to change this otherwise it will show Animal when you print in dog/cat/tiger class
                 "name='" + name + '\'' +
                 ", breed='" + breed + '\'' +
                 ", gender=" + gender +
