@@ -1,4 +1,4 @@
-package day29_inheritance.encapsulationContinue.AnimalInheritanceTasks;
+package day29_inheritance.AnimalInheritanceTasks;
 
 public class Dog extends Animal{ //use extends to inheritance from Animal
 //import is just borrowing, inheritance is for having

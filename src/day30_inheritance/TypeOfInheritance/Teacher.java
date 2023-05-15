@@ -1,4 +1,4 @@
-package day30_inheritance.PhoneTask.TypeOfInheritance;
+package day30_inheritance.TypeOfInheritance;
 
 import java.time.LocalDate;
 

@@ -1,4 +1,4 @@
-package day28_encapsulation.personTask.encapsulation;
+package day28_encapsulation.encapsulation;
 
 public class StudentTest {
 

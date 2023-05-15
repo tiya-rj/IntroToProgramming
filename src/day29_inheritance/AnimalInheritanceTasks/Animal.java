@@ -1,4 +1,4 @@
-package day29_inheritance.encapsulationContinue.AnimalInheritanceTasks;
+package day29_inheritance.AnimalInheritanceTasks;
 
 public class Animal {
 

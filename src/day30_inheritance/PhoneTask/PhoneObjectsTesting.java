@@ -15,7 +15,7 @@ public class PhoneObjectsTesting {
 
         iphone.text(1996);
 
-        iphone.faceTime(123456);
+        iphone.faceTime(12345);
         //samsung.faceTime
     }
 }

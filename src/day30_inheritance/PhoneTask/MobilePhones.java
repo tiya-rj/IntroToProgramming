@@ -68,10 +68,11 @@ public class MobilePhones {
     }
 
     public void call (long phoneNumber){
-        System.out.println(getBrand()+ " is calling" +phoneNumber);
+
+        System.out.println(getModel()+ " is calling" +phoneNumber);
     }
     public void text(long phoneNumber){
-        System.out.println(getBrand()+" is texting" +phoneNumber);
+        System.out.println(getModel()+" is texting" +phoneNumber);
     }
 
     public String toString() {

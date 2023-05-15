@@ -13,7 +13,7 @@ public class Iphone extends MobilePhones {
     }
     public static boolean hasApplePay = true;
     public void faceTime(long phoneNumber){
-        System.out.println(getModel()+" is face timing with "+phoneNumber);
+        System.out.println(getModel()+" is face timing with "+ phoneNumber);
 
     }
     public void faceTime (String email){
